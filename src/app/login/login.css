@@ -1,0 +1,72 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 40px;
+    border: 1px solid rgb(180, 175, 175);
+    border-radius: 6px;
+}
+
+.login-form input,button {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.login-form button {
+    cursor: pointer;
+}
+
+.login-form input:focus {
+    border-color: #4f46e5;
+}
+
+.login-form button:hover {
+    background-color: #4f46e5;
+    color: white;
+}
+
+.login-form .alert-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fee2e2;
+    border: 1px solid #f87171;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #b91c1c;
+}
+
+.login-form .alert-box p {
+    margin: 0;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.login-form .alert-box button {
+    background: none;
+    border: none;
+    color: #b91c1c;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+    flex-shrink: 0;
+    width: auto;
+    cursor: pointer;
+}
+
+.login-form .alert-box button:hover {
+    background-color: #ccc;
+}
